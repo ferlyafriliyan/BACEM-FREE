@@ -1365,7 +1365,7 @@ def setting():
 		pwpluss.append('no')
 	
 	cetak(panel(f'      [bold white]Apakah Anda Ingin Menampilkan Aplikasi Yang Terkait Di Dalam Akun ? Y/T',width=90,title=f"[bold green]Setting Cek Apk",style=f"bold white"))
-	_brayen_ = input(' [+] Pilih : ')
+	_haganezuka_ = input(' [+] Pilih : ')
 	if _haganezuka_ in ['']:
 		print(' [+] Pilih Yang Bener Kontol ')
 		back()
@@ -1375,7 +1375,7 @@ def setting():
 		taplikasi.append('no')
 		
 	cetak(panel(f'      [bold white]Apakah Anda Ingin Menampilkan Opsi Checkpoint Di Dalam Akun ? Y/T',width=90,title=f"[bold green]Cek Opsi",style=f"bold white"))
-	_brayen_ = input(' [+] Pilih : ')
+	_haganezuka_ = input(' [+] Pilih : ')
 	if _haganezuka_ in ['']:
 		print(' [+] Pilih Yang Bener Kontol ')
 		back()
