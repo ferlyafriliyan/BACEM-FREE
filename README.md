@@ -31,7 +31,7 @@ rm -rf $HOME/Emperror
 pkg update && pkg upgrade -y
 pkg install python git -y
 pkg install python-pip
-git clone https://github.com/Denventa/Emperror
+git clone https://github.com/Dvanmeploph/Emperror
 cd Emperror
 git pull
 pip3 install -r requirements.txt
