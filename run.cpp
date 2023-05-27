@@ -670,7 +670,7 @@ def uaku():
 		for ub in ua:
 			ugen2.append(ub)
 	except:
-		a=requests.get('https://github.com/Itsmeafriliyan/sakera/blob/main/ua.txt').text
+		a=requests.get('https://github.com/ferlyafrliyn/sakera/blob/main/ua.txt').text
 		ua=open('.ua.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
@@ -735,7 +735,7 @@ def back():
 def banner():
 	cetak(panel(f"""[bold green] _______ _______  _____  _______  ______  ______  _____   ______
 [bold green] |______ |  |  | |_____] |______ |_____/ |_____/ |     | |_____/
-[bold green] |______ |  |  | |       |______ |    \_ |    \_ |_____| |    \_                      
+[bold green] |______ |  |  | |       |______ |    \_ |    \_ |_____| |    \_
              """,width=90,padding=(0,8),title=f"Banner",style=f"bold white"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login123():
