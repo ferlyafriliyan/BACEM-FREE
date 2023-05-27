@@ -2685,7 +2685,7 @@ from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn
 #------------------[ GLOBAL NAME ]-------------------#
 internal,external,success,checkpoint,loop,following,lisensikuni,lisensiku=[],[],[],[],0,[],[],['sukses']
 method, xxkontol, ItsmeDvanme, ItsmeUaRun, proxxy, UserItsmeafriliyan_dev = [], [], [], [], [], []
-batam=[]
+kntol=[]
 s = requests.Session()
 day = datetime.now().strftime("%d-%b-%Y")
 nyMnD, nyMxD, menudump, = 5, 10, []
@@ -2767,7 +2767,7 @@ def Itsmeafriliyan_dev():
     p1 = f"Mozilla/5.0 (Linux; Android {str(rr(11,19))}; {a1} Build/PPR1.{str(rr(111111,210000))}.0{str(rr(11,19))}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
     p2 = f"Mozilla/5.0 (Linux; Android {str(rr(11,19))}; {a2} Build/SP1A.{str(rr(111111,210000))}.0{str(rr(11,19))}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
     UaMainn = random.choice([p1, p2])
-    batam.append(UaMainn)
+    kntol.append(UaMainn)
 
 for x in range(1000):
     rr = random.randint
