@@ -482,16 +482,16 @@ def dump_followers(link, cookie):
 #----------------------[ MENU CRACK LAINNYA ]----------------------#
 def lainnya():
 	cetak(panel(f"[[bold cyan]01[bold white]] Crack Username                   [[bold cyan]03[bold white]] Crack File \n[[bold cyan]02[bold white]] Crack Followers                  [[bold cyan]04[bold white]] Crack Email ",width=90,title=f"[bold green]Menu Crack",padding=(0,8),style=f"bold white"))
-	Itsm = input(f' [+] Pilih Menu Crack : ')
-	if Itsm in(''):
+	bray = input(f' [+] Pilih Menu Crack : ')
+	if bray in(''):
 		print(' [+] Pilih Yang Bener Asu ');exit()
-	if Itsme in('1','01'):
+	if bray in('1','01'):
 		crack_nama()
-	elif Itsm in('2','02'):
+	elif bray in('2','02'):
 		pengikut()
-	elif Itsm in('3','03'):
+	elif bray in('3','03'):
 		crack_file()
-	elif Itsm in('4','04'):
+	elif bray in('4','04'):
 		crack_email()
 	else:
 		print(' [+] Pilih Yang Bener Asu ')
