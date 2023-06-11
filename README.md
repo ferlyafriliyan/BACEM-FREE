@@ -6,7 +6,7 @@ Welcome
   <summary><b>More information</b></summary>
   
 #### ★ Social Accounts ★
-<a href="https://www.facebook.com/Denventa.Xayonara.Team.UnlimitedARMY"><img src="https://raw.githubusercontent.com/Dumai-991/Dumai-991/main/Image/images.png" alt="alt text" width="75" height="75"></a>  
+<a href="https://www.facebook.com/freya.xyz"><img src="https://raw.githubusercontent.com/Dumai-991/Dumai-991/main/Image/images.png" alt="alt text" width="75" height="75"></a>  
 # ✭ EMPERROR-FACEBOOK 
 ### Emperror Multi Brute Force Facebook
   
@@ -31,7 +31,7 @@ rm -rf $HOME/Emperror
 pkg update && pkg upgrade -y
 pkg install python git -y
 pkg install python-pip
-git clone https://github.com/Itsmeafriliyan/Emperror
+git clone https://github.com/Livian-xyz/Emperror
 cd Emperror
 git pull
 pip3 install -r requirements.txt
