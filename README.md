@@ -7,11 +7,11 @@ Welcome
   
 #### ★ Social Accounts ★
 <a href="https://www.facebook.com/freya.xyz"><img src="https://raw.githubusercontent.com/Dumai-991/Dumai-991/main/Image/images.png" alt="alt text" width="75" height="75"></a>  
-# ✭ EMPERROR-FACEBOOK 
-### Emperror Multi Brute Force Facebook
+# ✭ BACEM-MBF FACEBOOK
+### BACEM-MBF Multi Brute Force Facebook
   
-### • - Made With [ Alvino Adijaya (Al-Vino) ]
-### • - Updated By : BrayennnXD
+### • - Made With [ Adtya Putra Mahesa XD (Xyaa-Code) ]
+### • - Developed By : Ferly Afriliyan
 
   
 ### ⇨  Fitur Login
@@ -31,14 +31,14 @@ rm -rf $HOME/Emperror
 pkg update && pkg upgrade -y
 pkg install python git -y
 pkg install python-pip
-git clone https://github.com/FerlyXyn/Brayennn
-cd Emperror
+git clone https://github.com/ferlyafriliyan/BACEM-FREE
+cd BACEM-FREE
 git pull
 pip3 install -r requirements.txt
 ```
 
 * **Untuk Jalankan Script Bisa DiKetik :(To run the script, you can type:)**
-* ```python run.cpp```
+* ```python Run.py```
 
 * **Untuk Stop Script Tekan : (To Stop Script Press :)**
 * ```CTRL + Z```
